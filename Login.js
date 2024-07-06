@@ -36,7 +36,13 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <button type="submit">Login</button><div>
+        <h1>Cybrom Connect</h1>
+        Codemithra is a leading education and placement platform that helps students achieve certification and get placements in large MNCs.
+
+We help students improve their aptitude skills, communication and interpersonal abilities thus making them industry-ready.
+
+        </div>
       </form>
     </div>
   );
