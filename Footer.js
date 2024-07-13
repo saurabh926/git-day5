@@ -55,7 +55,9 @@ const Footer = () => {
             </div>
         </div>
         <hr/>
-        <p id="coright">Easy for use my website 0 2023 . All Right Reseved</p>
+        <p id="coright">Easy for use my website 0 2023 . All Right Reseved 
+            This is proveded by saurabh rawat from cybrom
+        </p>
     </footer>
     </div>
   )
