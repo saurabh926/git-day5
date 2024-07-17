@@ -12,7 +12,7 @@ const Landing = () => {
     <div ><img className='img2' src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-we-are-open-hanging-signboard-now-icon-banner-sign-illustration-vector-png-image_11905814.png" alt="" /></div>
     </div>
     <div className='container1'>
-    <h1>Find the right job or internship for you</h1>  
+    <h1>Find the right job or internship for you find the right obne </h1>  
     </div>
   </section>
    </>
