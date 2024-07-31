@@ -70,4 +70,390 @@
   .registration-form button:hover {
     background-color: #0056b3;
   }
+  .play{
+    /* font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; */
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* Landing page Css */
+  
+  .container{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    margin-left: 35px;
+    
+  }
+  
+  .container1{
+    background-image: url("./");
+  }
+  .row{
+   /* margin-left: 200px; */
+  margin-top: 100px;
+  }
+  .let1{  
+    font-size: 36px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+  }
+  .let2{
+    width: 300px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: red; */
+  }
+  .img2{
+    padding-left: 200px;
+    margin-top: 58px;
+    width: 600px;
+    height: fit-content;
+  }
+  
+  .container1{
+    width: 100%;
+    background-color: rgb(248, 209, 157);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+  }
+  .container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container1 h1{
+    font-size: 36px;
+  }
+  
+  .container1 ul ul{
+    display: flex;
+   margin-right: 16px;
+  }
+  .container1 ul li{
+    list-style: none;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+  }
+  
+  
+  
+  /* footer css */
+  footer{
+    width: 100%;
+    /* height: 500px; */
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(#033747,#012733);
+    color: #fff;
+    padding: 100px 0 30px;
+    /* border-top-left-radius: 125px; */
+    font-size: 16px;
+  }
+  #row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .menu-link-color{
+    color: #fff;
+  }
+  #col{
+    flex-basis: 20%;
+    padding: 10px;
+  }
+  #col:nth-child(2),#col:nth-child(3){
+    flex-basis: 15%;
+  }
+  #logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    /* background:2px linear-gradient(pink,red,blue,yello); */
+    border: 2px solid red;
+  }
+  li{
+    list-style: none;
+    margin-bottom: 16px;
+  }
+  #col h1{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  #under-line{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    overflow: hidden;
+  }
+  #under-line span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+  }
+  #coright{
+    text-align: center;
+  }
+  @keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+  }
+  @media (max-width: 700px){
+    footer{
+        bottom: unset;
+    }
+    #col{
+    flex-basis: 100%;
+    /* padding: 10px; */
+    }
+  #col:nth-child(2),#col:nth-child(3){
+    flex-basis: 100%;
+  }
+  }
+  
+  
+  /* sing in from */
+  /* Basic styling for the sign-in form */
+  .signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signin-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .signin-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .signin-form .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .signin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #005582;
+  }
+  
+  .signin-footer {
+    margin-top: 15px;
+  }
+  
+  .signin-footer a {
+    display: block;
+    margin-top: 5px;
+    color: #0073b1;
+    text-decoration: none;
+  }
+  
+  .signin-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /*  about page */
+  .about{
+    display: flex;
+  
+  }
+  
+  .tag{
+  color: #0e0b0b;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 25px;
+  }
+  
+  .tag1{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  
+  /* header page */
+  
+  .left{
+    display: flex;
+    height: 570px;
+   /* background-image: url("./assets/homeimg.png"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* position: ; */
+  }
+  
+  .fronttitle{
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 55px;
+    margin-top: 95px;
+    
+  }
+  
+  .custom-button{
+    
+    font-size: 22px;
+    margin-left: 55px;
+    margin-top: 15px;
+    background-color: #0074d9;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn{
+    margin-top: 20px;
+    margin-bottom: 55px;display: flex;
+  }
+  
+  .agreement-text{
+       font-size: 18px;
+       margin-left: 55px;
+       font-weight: 500;
+  }
+  
+  .new-to-linkedin{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-weight: 400;
+    
+  }
+  
+  .join-now{
+    margin-left: 25px;
+    background-color: #0074d9;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .centered-text{
+    background-color: #a21b89;
+    color: white;
+    margin-left: 25px;
+    
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .image-container{
+    margin-left: 195px;
+    margin-top: 90px;
+  }
+  
+  /* top header  */
+  
+  .toporder{
+   
+    background-image: url("./assets/background.png");
+    width: 1492px;
+    height: 670px;
+    position: absolute;
+    color: white;
+    display: flex;
+    transition: all 0.5ms;
+  }
+  
+  .find{
+    font-weight: 900;
+    font-size: 56px;
+  }
+  
+  .from{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .order {
+    margin-top: 200px;
+  
+    margin-left: 80px;
+    font-size: 35px;
+    font-weight: 500;
+  } 
+  
+  .image{
+     margin-top: 150px;
+     margin-left: 160px;
+     
+  
+  }
+  
+  .display{
+    display: flex;
+  }
+  
+  .img3{
+    margin: 10px;
+    border-radius: 80px 5px 5px  80px;
+  }
+  
+  .img4{
+    margin: 10px;
+    border-radius: 20px;
+  }
+  
+  .img5{
+    margin: 10px;
+    border-radius:  5px 80px  80px 5px ;
+  }
+  
   
