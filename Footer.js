@@ -43,7 +43,7 @@ const Footer = () => {
             <div id="col">
                 <h1>Directories <div id="under-line"><span></span></div></h1>
               
-                <div id="social-icons">
+                     <div id="social-icons">
                    <li> Members</li>
                    <li>Jobs</li>
                    <li>Companies</li>
