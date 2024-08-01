@@ -9,7 +9,7 @@ const Footer = () => {
         <img id="logo" src={logo}/><br/>
             <div id="col">
                 
-                <h1>General <div id="under-line"><span></span></div></h1>
+              <h1>General <div id="under-line"><span></span></div></h1>
               
                <li>Sign Up</li>
                <li>Help Center</li>
