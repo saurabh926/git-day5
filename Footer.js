@@ -6,6 +6,7 @@ const Footer = () => {
     <div>
        <footer>
         <div id="row">
+    <h1>saurabh rawat <h1/>
         <img id="logo" src={logo}/><br/>
             <div id="col">
                 
