@@ -12,6 +12,8 @@ const Footer = () => {
               <h1>General <div id="under-line"><span></span></div></h1>
               
                <li>Sign Up</li>
+
+    
                <li>Help Center</li>
                <li>About</li>
                <li>Press</li>
