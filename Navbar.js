@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 // // import img1 from "../assets/dbvmk0tsk0o0hd59fi64z3own.png";
 // const Landing = () => {
 //   return (
