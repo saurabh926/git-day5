@@ -1,4 +1,4 @@
-             // src/App.js
+              // src/App.js
 import React from 'react';
 import Form from './components/Form';
 import  RegistrationForm from './components/RegistrationForm';
